@@ -1,0 +1,62 @@
+/*==========================================
+responsive media query for tablet device
+============================================*/
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    .nav-menu {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        margin-top: 10px;
+    }
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-title-primary {
+        font-size: 60px;
+    }
+    .header-banner{
+        margin: 0 30px;
+    }
+}
+
+
+/*======================================
+ responsive media query for mobile device
+ ======================================= */
+@media only screen and (max-width: 600px) {
+
+    .nav-menu,
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-items>li {
+        margin-top: 10px;
+    }
+
+    .header-banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-title-primary {
+        font-size: 60px;
+    }
+
+    .banner-items li {
+        font-size: 17px;
+    }
+
+    .banner-info,
+    .banner-image {
+        width: 80%;
+    }
+    .banner-info{
+        margin-top: 50px;
+    }
+}
