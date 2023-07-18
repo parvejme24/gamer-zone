@@ -159,8 +159,58 @@ header banner styles
 .banner-image img {
     width: 100%;
 }
-.btn-group{
+
+.btn-group {
     display: flex;
     gap: 30px;
     margin-top: 20px;
+}
+
+
+/*=============================
+    we are gammer styles
+==============================*/
+.gammer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 0;
+}
+
+.gammer-image, .gammer-info {
+    width: 50%;
+    text-align: right;
+}
+
+.gammer-image img {
+    width: 100%;
+}
+
+.text-primary {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF42A5;
+}
+
+.gammer-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.banner-purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.banner-quote {
+    color: #534C64;
+    font-size: 28px;
+    font-weight: 700;
 }

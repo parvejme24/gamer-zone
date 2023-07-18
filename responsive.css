@@ -53,10 +53,23 @@ responsive media query for tablet device
     }
 
     .banner-info,
-    .banner-image {
+    .banner-image,
+    .gammer-info,
+    .gammer-image {
         width: 80%;
     }
     .banner-info{
         margin-top: 50px;
     }
+
+    .gammer-container{
+        flex-direction: column;
+    }
+    .gammer-info{
+        text-align: center;
+    }
+    .text-primary{
+        font-size: 40px;
+    }
+    
 }
