@@ -252,9 +252,118 @@ header banner styles
     font-size: 16px;
     font-weight: 500;
 }
-.video-card{
+
+.video-card {
     width: 340px;
+    position: relative;
 }
-.video-card img{
+
+.video-card img {
     width: 100%;
+}
+
+
+
+/*======================================
+ play instantly wrapper
+ ===================================*/
+.play-instantly-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.play-instantly-info,
+.play-instantly-image {
+    width: 50%;
+}
+
+.play-instantly-image {
+    position: relative;
+}
+
+.cover-image1 {
+    width: 80%;
+    margin-left: 100px;
+}
+
+.child-image1 {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+}
+
+.play-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-instantly-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/*============================
+ games items styles 
+ ==========================*/
+.games-items-wrapper {
+    max-width: 1140px;
+    margin: 80px auto;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+    gap: 30px;
+}
+
+.games-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.games-item>img{
+    width: 60px;
+    height: 60px;
+}
+
+.games-item:hover {
+    border: 2px solid #FF42A5;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+
+.games-item .games-name {
+    margin-left: 10px;
+    color: #0B0223;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/*============================
+footer section styles
+=============================*/
+.footer{
+    background-color: #0B0223;
+    padding: 50px 0;
+}
+.footer-content{
+    width: 1140px;
+    margin: 0 auto;
+}
+.footer-content .footer-logo{
+    color: #fff;
+    text-align: center;
 }

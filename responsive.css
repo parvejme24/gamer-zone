@@ -26,16 +26,29 @@ responsive media query for tablet device
         padding: 0 20px;
         flex-direction: column;
     }
-    .gammer-image, .gammer-info{
+
+    .gammer-image,
+    .gammer-info {
         width: 90%;
         text-align: center;
     }
-    .online-video{
+
+    .online-video {
         padding: 0 30px;
     }
-    .video-wrapper{
+
+    .video-wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play-title {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .text-primary {
+        font-size: 30px;
     }
 }
 
@@ -89,17 +102,46 @@ responsive media query for tablet device
         text-align: center;
     }
 
-    .text-primary, .video-title {
+    .text-primary,
+    .video-title {
         font-size: 40px;
     }
-    .video-wrapper{
+
+    .video-wrapper {
         flex-direction: column;
     }
-    .video-title, .video-title-info{
+
+    .video-title,
+    .video-title-info {
         padding: 0 20px;
     }
-    .video-card{
+
+    .video-card {
         margin-top: 20px;
     }
+
+
+
+    .play-instantly-wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-instantly-info,
+    .play-instantly-image {
+        width: 90%;
+    }
+
+    .play-title {
+        text-align: center;
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .play-instantly-description {
+        text-align: center;
+    }
+
+    
 
 }
