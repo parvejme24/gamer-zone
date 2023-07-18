@@ -116,6 +116,10 @@
     font-size: 20px;
 }
 
+.play-instantly-wrapper{
+   padding: 0 30px;
+}
+
 /*=============================
 header banner styles
 ============================*/
@@ -263,54 +267,47 @@ header banner styles
 }
 
 
-
-/*======================================
- play instantly wrapper
- ===================================*/
-.play-instantly-wrapper {
+/*=================================
+ play instantly section styles 
+ ================================*/
+.play-instantly-wrapper{
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
-    padding: 50px 0;
-    flex-direction: row;
 }
-
-.play-instantly-info,
-.play-instantly-image {
+.play-instantly-info, .play-instantly-image{
     width: 50%;
+    text-align: right;
 }
-
-.play-instantly-image {
+.play-instantly-info{
+    margin-right: 100px;
+}
+.play-instangly-image{
     position: relative;
+    display: flex;
+    justify-content: end;
 }
-
-.cover-image1 {
+.play-instangly-image .cover-image1{
     width: 80%;
-    margin-left: 100px;
 }
-
-.child-image1 {
+.play-instangly-image .child-image1{
     width: 50%;
     position: absolute;
-    left: 0;
     bottom: -50px;
+    left: 0;
 }
-
-.play-title {
-    text-align: right;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px;
+.play-instantly-title{
+    font-size: 45px;
 }
-
-.play-instantly-description {
+.play-instantly-title .text-primary{
+    font-size: 30px;
+}
+.play-instantly-description{
+    font-size: 20px;
     color: #534C64;
-    text-align: right;
-    font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 20px;
 }
 

@@ -98,6 +98,8 @@ responsive media query for tablet device
         margin-top: 50px;
     }
 
+
+    /* gammer section responsive styles  */
     .gammer-container {
         flex-direction: column;
     }
@@ -111,6 +113,8 @@ responsive media query for tablet device
         font-size: 40px;
     }
 
+
+    /* online vide section responsive styles  */
     .video-wrapper {
         flex-direction: column;
     }
@@ -124,14 +128,28 @@ responsive media query for tablet device
         margin-top: 20px;
     }
 
-
-
+    /* play instantly section responsive sytles  */
     .play-instantly-wrapper {
         flex-direction: column;
-        gap: 50px;
+        padding: 0 30px;
     }
 
+    .play-instantly-info,
+    .play-instantly-image {
+        width: 90%;
+        text-align: center;
+    }
+    .play-instantly-info{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .play-instantly-title{
+        font-size: 30px;
+        line-height: normal;
+        color: #0B0223;
+    }
 
+    /* play game section responsive styles  */
     .play-game-title {
         font-size: 45px;
         line-height: normal;
@@ -149,6 +167,7 @@ responsive media query for tablet device
     .play-game-info {
         padding-left: 0;
         margin-top: 100px;
+        text-align: center;
     }
 
     .play-game-title {
@@ -160,22 +179,11 @@ responsive media query for tablet device
         font-size: 30px;
     }
 
-    .play-instantly-info,
-    .play-instantly-image {
-        width: 90%;
-    }
-
-    .play-title {
-        text-align: center;
-        font-size: 30px;
-        line-height: normal;
-    }
-
-    .play-instantly-description {
-        text-align: center;
-    }
 
 
+
+
+    /* footer styles for responsive  */
     .footer-menu-items,
     .footer-terms {
         flex-wrap: wrap;
