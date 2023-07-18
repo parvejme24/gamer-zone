@@ -54,6 +54,9 @@ responsive media query for tablet device
     .play-game-online {
         padding: 0 30px;
     }
+    .play-instantly-title, .play-instantly-title .text-primary{
+        font-size: 25px;
+    }
 }
 
 
