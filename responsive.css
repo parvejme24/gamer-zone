@@ -9,6 +9,7 @@ responsive media query for tablet device
     .nav-items {
         margin-top: 10px;
     }
+
     .banner-title {
         font-size: 30px;
     }
@@ -16,8 +17,18 @@ responsive media query for tablet device
     .banner-title-primary {
         font-size: 60px;
     }
-    .header-banner{
+
+    .header-banner {
         margin: 0 30px;
+    }
+
+    .gammer-container {
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .gammer-image, .gammer-info{
+        width: 90%;
+        text-align: center;
     }
 }
 
@@ -58,18 +69,21 @@ responsive media query for tablet device
     .gammer-image {
         width: 80%;
     }
-    .banner-info{
+
+    .banner-info {
         margin-top: 50px;
     }
 
-    .gammer-container{
+    .gammer-container {
         flex-direction: column;
     }
-    .gammer-info{
+
+    .gammer-info {
         text-align: center;
     }
-    .text-primary{
+
+    .text-primary {
         font-size: 40px;
     }
-    
+
 }
