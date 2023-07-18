@@ -30,6 +30,13 @@ responsive media query for tablet device
         width: 90%;
         text-align: center;
     }
+    .online-video{
+        padding: 0 30px;
+    }
+    .video-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -82,8 +89,17 @@ responsive media query for tablet device
         text-align: center;
     }
 
-    .text-primary {
+    .text-primary, .video-title {
         font-size: 40px;
+    }
+    .video-wrapper{
+        flex-direction: column;
+    }
+    .video-title, .video-title-info{
+        padding: 0 20px;
+    }
+    .video-card{
+        margin-top: 20px;
     }
 
 }

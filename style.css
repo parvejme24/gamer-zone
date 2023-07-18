@@ -180,7 +180,8 @@ header banner styles
     padding: 50px 0;
 }
 
-.gammer-image, .gammer-info {
+.gammer-image,
+.gammer-info {
     width: 50%;
     text-align: right;
 }
@@ -213,4 +214,47 @@ header banner styles
     color: #534C64;
     font-size: 28px;
     font-weight: 700;
+}
+
+/*===============================
+ online video section styles
+ ===============================*/
+.online-video {
+    max-width: 1140px;
+    margin: 50px auto;
+}
+
+.video-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.video-title-info {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.video-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.video-description {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+}
+.video-card{
+    width: 340px;
+}
+.video-card img{
+    width: 100%;
 }
