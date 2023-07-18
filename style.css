@@ -275,6 +275,7 @@ header banner styles
     align-items: center;
     gap: 100px;
     padding: 50px 0;
+    flex-direction: row;
 }
 
 .play-instantly-info,
@@ -311,6 +312,46 @@ header banner styles
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+}
+
+/*========================
+ play game online styles
+ ==========================*/
+ .play-game-online{
+    max-width: 1140px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+ }
+.play-game-image, .play-game-info{
+    width: 50%;
+}
+.play-game-image{
+   position: relative;
+}
+.play-game-info{
+    padding-left: 100px;
+}
+.play-game-title{
+    font-size: 45px;
+    line-height: normal;
+}
+.play-game-description{
+    font-size: 18px;
+    color: #0B0223;
+    font-weight: 500;
+    line-height: normal;
+}
+.cover-image2{
+    width: 80%;
+}
+.child-image2{
+    width: 50%;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
 }
 
 /*============================
