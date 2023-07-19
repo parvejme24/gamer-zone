@@ -35,7 +35,7 @@
     header section styles
  ================================== */
 .nav-wrapper {
-    box-shadow: 1px 1px 10px 0px rgba(179, 177, 179, 1);
+    box-shadow: 1px 1px 10px 0px #ecebeb;
 }
 
 .nav-menu {
@@ -258,24 +258,22 @@ header banner styles
     margin-top: 10px;
 }
 
-
-
-
-
-/*==================*/
-.video-cardd{
+.video-cardd {
     max-width: 340px;
 }
+
 .video-card-image-wrapper {
     position: relative;
     max-width: 340px;
 }
-.video-card-image{
+
+.video-card-image {
     display: block;
     width: 100%;
     height: auto;
 }
-.mouse-hover-overly{
+
+.mouse-hover-overly {
     position: absolute;
     top: 0;
     left: 0;
@@ -293,10 +291,6 @@ header banner styles
     border: 3px solid #FF42A5;
 
 }
-
-/*******************************/
-
-
 
 
 .video-card-image-wrapper:hover .mouse-hover-overly {
