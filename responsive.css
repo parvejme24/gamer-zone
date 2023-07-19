@@ -130,11 +130,9 @@ responsive media query for tablet device
     }
 
     .video-card {
-        margin-top: 20px;
+        margin: 30px;
     }
-    .mouse-hover{
-        max-height: 100px;
-    }
+    
 
     /* play instantly section responsive sytles  */
     .play-instantly-wrapper {
