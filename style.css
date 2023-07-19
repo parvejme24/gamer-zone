@@ -259,17 +259,19 @@ header banner styles
 }
 
 .video-cardd {
-    max-width: 340px;
+    max-width: 280px;
+    max-height: 400px;
 }
 
 .video-card-image-wrapper {
     position: relative;
-    max-width: 340px;
+    width: 280px;
 }
 
 .video-card-image {
     display: block;
-    width: 100%;
+    width: 280px;
+    max-height: 400px;
     height: auto;
 }
 
@@ -291,7 +293,6 @@ header banner styles
     border: 3px solid #FF42A5;
 
 }
-
 
 .video-card-image-wrapper:hover .mouse-hover-overly {
     opacity: 1;

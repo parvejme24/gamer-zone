@@ -122,6 +122,7 @@ responsive media query for tablet device
     /* online vide section responsive styles  */
     .video-wrapper {
         flex-direction: column;
+        margin: 30px;
     }
 
     .video-title,
@@ -129,10 +130,7 @@ responsive media query for tablet device
         padding: 0 20px;
     }
 
-    .video-card {
-        margin: 30px;
-    }
-    
+       
 
     /* play instantly section responsive sytles  */
     .play-instantly-wrapper {
