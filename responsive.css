@@ -36,6 +36,9 @@ responsive media query for tablet device
     .online-video {
         padding: 0 30px;
     }
+    .video-title, .play-game-title{
+        font-size: 30px !important;
+    }
 
     .video-wrapper {
         display: grid;
