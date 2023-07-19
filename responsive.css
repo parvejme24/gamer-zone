@@ -54,7 +54,9 @@ responsive media query for tablet device
     .play-game-online {
         padding: 0 30px;
     }
-    .play-instantly-title, .play-instantly-title .text-primary{
+
+    .play-instantly-title,
+    .play-instantly-title .text-primary {
         font-size: 25px;
     }
 }
@@ -142,11 +144,13 @@ responsive media query for tablet device
         width: 90%;
         text-align: center;
     }
-    .play-instantly-info{
+
+    .play-instantly-info {
         margin-right: 0;
         margin-bottom: 30px;
     }
-    .play-instantly-title{
+
+    .play-instantly-title {
         font-size: 30px;
         line-height: normal;
         color: #0B0223;
@@ -183,8 +187,21 @@ responsive media query for tablet device
     }
 
 
-
-
+    /* games items wrapper  */
+    .games-items-wrapper{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+    }
+    .games-item{
+        margin-bottom: 8px;
+    }
+    .games-item img{
+        width: 30px;
+    }
+    .games-name{
+        font-size: 12px !important;
+        font-weight: 500;
+    }
 
     /* footer styles for responsive  */
     .footer-menu-items,
