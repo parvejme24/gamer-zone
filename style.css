@@ -255,17 +255,64 @@ header banner styles
     color: #534C64;
     font-size: 16px;
     font-weight: 500;
+    margin-top: 10px;
 }
 
-.video-card {
-    width: 340px;
+
+
+
+
+/*==================*/
+.video-cardd{
+    max-width: 340px;
+}
+.video-card-image-wrapper {
     position: relative;
+    max-width: 340px;
 }
-
-.video-card img {
+.video-card-image{
+    display: block;
     width: 100%;
+    height: auto;
+}
+.mouse-hover-overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    border-radius: 16px;
+    opacity: 0;
+    transition: 0.2s ease;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 3px solid #FF42A5;
+
 }
 
+/*******************************/
+
+
+
+
+.video-card-image-wrapper:hover .mouse-hover-overly {
+    opacity: 1;
+}
+
+.mouse-hover-overly i {
+    color: #fff;
+    font-size: 30px;
+}
+
+.mouse-hover-overly p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF42A5;
+}
 
 /*=================================
  play instantly section styles 
@@ -375,7 +422,7 @@ header banner styles
     max-width: 1140px;
     margin: 100px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
@@ -384,7 +431,9 @@ header banner styles
 .games-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+    margin: 10px;
     max-width: 310px;
     min-height: 50px;
     padding: 0 5px;
@@ -394,7 +443,8 @@ header banner styles
     border: 3px solid #FF42A5;
     border-radius: 50px;
 }
-.games-item:hover .games-name{
+
+.games-item:hover .games-name {
     color: #FF42A5;
 }
 

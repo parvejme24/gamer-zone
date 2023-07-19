@@ -132,6 +132,9 @@ responsive media query for tablet device
     .video-card {
         margin-top: 20px;
     }
+    .mouse-hover{
+        max-height: 100px;
+    }
 
     /* play instantly section responsive sytles  */
     .play-instantly-wrapper {
@@ -189,19 +192,23 @@ responsive media query for tablet device
 
     /* games items wrapper  */
     .games-items-wrapper{
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
     .games-item{
         margin-bottom: 8px;
+        margin: 0;
+        margin-bottom: 10px;
     }
     .games-item img{
         width: 30px;
     }
     .games-name{
-        font-size: 12px !important;
+        font-size: 14px !important;
         font-weight: 500;
     }
+
+
 
     /* footer styles for responsive  */
     .footer-menu-items,
